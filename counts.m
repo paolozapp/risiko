@@ -1,4 +1,4 @@
-function [ agg ] = count( t, sol )
+function [ agg ] = counts( t, sol )
 %aggrega le soluzioni di una sfida3
 agg = [sol zeros(15, 1)];
 s=size(t);
